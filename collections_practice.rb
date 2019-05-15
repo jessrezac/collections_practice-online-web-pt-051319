@@ -63,7 +63,7 @@ end
 
 def add_s(arr)
   arr.collect do |item|
-    if item.ends_with?("s")
+    if item.end_with?("s")
       item
     else
       "#{item}s"
