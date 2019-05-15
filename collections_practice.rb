@@ -27,6 +27,7 @@ def swap_elements(arr)
     else
       item
     end
+    i += 1
   end
 end
 
