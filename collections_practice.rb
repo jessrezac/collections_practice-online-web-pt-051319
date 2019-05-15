@@ -41,8 +41,8 @@ def kesha_maker(arr)
   arr.each do |name|
     name = name.split("")
     keshad_name = []
-    name.each do |letter|
-      if letter == name[2]
+    name.each_with_index do |letter, index|
+      if index == 2
         keshad_name << "$"
       else
         keshad_name << letter
@@ -64,4 +64,5 @@ def sum_array(arr)
 end
 
 def add_s
+
 end
