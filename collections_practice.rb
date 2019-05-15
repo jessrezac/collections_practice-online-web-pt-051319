@@ -59,7 +59,8 @@ def find_a(arr)
   end
 end
 
-def sum_array
+def sum_array(arr)
+  arr.sum
 end
 
 def add_s
