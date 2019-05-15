@@ -39,14 +39,13 @@ end
 def kesha_maker(arr)
   keshas = []
   arr.each do |name|
-    name = name.split("")
     name.map do |letter|
       if letter == name[2]
         "$"
       else
         letter
       end
-    end.join
+    end
     keshas << name
   end
   keshas
