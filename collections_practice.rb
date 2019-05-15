@@ -42,12 +42,13 @@ def kesha_maker(arr)
     name = name.split("")
     name.map do |letter|
       if letter == name[2]
+        binding.pry
+
         "$"
       else
         letter
       end
     end.join
-    binding.pry
     keshas << name
   end
   keshas
