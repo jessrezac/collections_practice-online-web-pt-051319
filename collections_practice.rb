@@ -41,7 +41,7 @@ def kesha_maker(arr)
   arr.each do |name|
     name = name.split("")
     name.map do |letter|
-      if letter == name.[2]
+      if letter == name[2]
         "$"
       else
         letter
