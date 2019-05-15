@@ -36,7 +36,14 @@ def reverse_array(arr)
   arr.reverse
 end
 
-def kesha_maker
+def kesha_maker(arr)
+  arr.map do |name|
+    name.split.each do |letter|
+      if name[2]
+        binding.pry
+      end
+    end
+  end
 end
 
 def find_a
