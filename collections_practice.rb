@@ -8,7 +8,10 @@ def sort_array_desc(arr)
   arr.sort.reverse
 end
 
-def sort_array_char_count
+def sort_array_char_count(arr)
+  arr.sort do |item|
+    item.length
+  end
 end
 
 def swap_elements
