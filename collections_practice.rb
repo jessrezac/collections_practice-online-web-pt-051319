@@ -14,10 +14,14 @@ def sort_array_char_count(arr)
   end
 end
 
-def swap_elements
+def swap_elements(arr)
+  i = 0
+  arr.map do |item|
+    if item[i] = item[1]
 end
 
-def reverse_array
+def reverse_array(arr)
+  arr.reverse
 end
 
 def kesha_maker
