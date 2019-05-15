@@ -53,7 +53,10 @@ def kesha_maker(arr)
   keshas
 end
 
-def find_a
+def find_a(arr)
+  arr.select do |item|
+    item.start_with?("a")
+  end
 end
 
 def sum_array
