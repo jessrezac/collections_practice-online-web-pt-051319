@@ -62,8 +62,8 @@ def sum_array(arr)
 end
 
 def add_s(arr)
-  arr.collect do |item|
-    if item.end_with?("s")
+  arr.each_with_index.collect do |item, index|
+    if index == 1
       item
     else
       "#{item}s"
