@@ -20,9 +20,9 @@ def swap_elements(arr)
   i = 0
   new_arr = []
   arr.map do |item|
-    if i = 1
+    if i == 1
       new_arr << third_element
-    elsif i = 2
+    elsif i == 2
       new_arr << second_element
     else
      new_arr << item
