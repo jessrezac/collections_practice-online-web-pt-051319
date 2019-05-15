@@ -18,16 +18,18 @@ def swap_elements(arr)
   second_element = arr[1]
   third_element = arr[2]
   i = 0
+  new_arr = []
   arr.map do |item|
     if i = 1
-      third_element
+      new_arr << third_element
     elsif i = 2
-      second_element
+      new_arr << second_element
     else
-      item
+     new_arr << item
     end
     i += 1
   end
+  new_arr
 end
 
 def reverse_array(arr)
