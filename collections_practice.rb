@@ -37,14 +37,14 @@ def reverse_array(arr)
 end
 
 def kesha_maker(arr)
-  arr.map do |name|
+  arr.each do |name|
     name.split("").each do |letter|
       if name[2]
         "$"
       else
         letter
-      end.join
-    end
+      end
+    end.join
   end
 end
 
