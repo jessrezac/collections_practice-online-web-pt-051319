@@ -48,6 +48,7 @@ def kesha_maker(arr)
     end.join
     keshas << name
   end
+  keshas
 end
 
 def find_a
