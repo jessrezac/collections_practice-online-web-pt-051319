@@ -38,7 +38,7 @@ end
 
 def kesha_maker(arr)
   arr.map do |name|
-    name.split.each do |letter|
+    name.split("").each do |letter|
       if name[2]
         binding.pry
       end
