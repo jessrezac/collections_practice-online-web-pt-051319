@@ -68,4 +68,5 @@ def add_s(arr)
     else
       "#{item}s"
     end
+  end
 end
