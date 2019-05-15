@@ -48,7 +48,6 @@ def kesha_maker(arr)
         keshad_name << letter
       end
     end
-    binding.pry
     keshas << keshad_name.join
   end
   keshas
