@@ -15,8 +15,8 @@ def sort_array_char_count(arr)
 end
 
 def swap_elements(arr)
-  arr[1] = second_element
-  arr[2] = third_element
+  second_element = arr[1]
+  third_element = arr[2]
   i = 0
   arr.map do |item|
     if i = 1
