@@ -15,15 +15,14 @@ def sort_array_char_count(arr)
 end
 
 def swap_elements(arr)
+  arr[1] = second_element
+  arr[2] = third_element
   i = 0
   arr.map do |item|
-    if i == 1
-      swapped_element = arr[1]
-      item = arr[2]
-      item
-    elsif arr[i] == 2
-      item = swapped_element
-      item
+    if i = 1
+      second_element
+    elsif i = 2
+      third_element
     else
       item
     end
