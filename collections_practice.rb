@@ -17,17 +17,15 @@ end
 def swap_elements(arr)
   second_element = arr[1]
   third_element = arr[2]
-  i = 0
   new_arr = []
-  arr.map do |item|
-    if i == 1
+  arr.each_with_index do |item, index|
+    if index == 1
       new_arr << third_element
-    elsif i == 2
+    elsif index == 2
       new_arr << second_element
     else
      new_arr << item
     end
-    i += 1
   end
   new_arr
 end
