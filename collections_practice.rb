@@ -18,10 +18,10 @@ def swap_elements(arr)
   i = 0
   arr.map do |item|
     if i == 1
-      swapped_element = item[1]
-      item = item[2]
+      swapped_element = arr[1]
+      item = arr[2]
       item
-    elsif item i == 2
+    elsif arr[i] == 2
       item = swapped_element
       item
     else
